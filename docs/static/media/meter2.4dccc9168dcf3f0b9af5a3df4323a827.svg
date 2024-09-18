@@ -1,0 +1,27 @@
+<svg width="204" height="204" viewBox="0 0 204 204" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="102" cy="102" r="90" stroke="#eee" stroke-width="15" fill="none" />
+
+  <!-- Progress Circle (100%) -->
+  <circle 
+    cx="102" 
+    cy="102" 
+    r="90" 
+    stroke="url(#paint0_linear_16_339)" 
+    stroke-width="15" 
+    fill="none" 
+    stroke-dasharray="565.48"  
+    stroke-dashoffset="0"      
+    stroke-linecap="round"/>
+
+  <!-- Optional Text in the Center (100%) -->
+  <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="24" fill="white">100%</text>
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="paint0_linear_16_339" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#AA367C"/>
+      <stop offset="1" stop-color="#4A2FBD"/>
+    </linearGradient>
+  </defs>
+</svg>
